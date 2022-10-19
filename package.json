@@ -1,0 +1,18 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "store indian spa",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "juanygr99@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian Holy</title>
+    <link rel="stylesheet" href="./lib/WOW-master/css/libs/animate.css">
+    <link rel="stylesheet" href="./lib/splide-4.0.7/dist/css/splide.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./res/indian-icon64.webp">
+  </head>
+  <body>
+
+      <a target="_blank" href="https://api.whatsapp.com/send?phone=5493518018178" class="btn-wsp"></a>
+
+    <nav class="page-nav">
+      <a class="li-a" href="#home">Home</a>
+      <a class="li-a" href="#services">Servicios</a>
+      <a class="li-a disabled" href="">Tienda</a>
+      <span>
+        <a href="#"><img src="./res/indian-icon.webp" loading="lazy" class="icon-spa" alt="logo indian holy spa" /></a>
+      </span>
+      <a class="li-a" href="#nosotras">Nosotros</a>
+      <a class="li-a" href="#contacto">Contacto</a>
+      <a class="li-a btn-reserva disabled" href="">Reservas</a>
+    </nav>
+
+
+    <button class="btn-nav" id="btn-collapse">
+     <div class="line" id="line1"></div>
+     <div class="line" id="line2"></div>
+     <div class="line" id="line3"></div>
+    </button>
+
+    <nav class="nav-mobile" id="nav-mobile">
+      <div class="collapce" id="nav-items">
+      <ul>
+        <div class="cont-icon">
+          <a href="#"><img src="./res/indian-icon.webp" loading="lazy" class="icon-spa-nav" alt="logo indian holy spa" /></a>
+        </div>
+        
+        <li><a class="li-a" href="#home" onclick="collapseDisabled()">Home</a></li>
+        <li><a class="li-a" href="#services" onclick="collapseDisabled()">Servicios</a></li>
+        <li><a class="li-a disabled" href="" onclick="collapseDisabled()">Tienda</a></li>
+        <li><a class="li-a" href="#nosotras" onclick="collapseDisabled()">Nosotros</a></li>
+        <li><a class="li-a" href="#contacto" onclick="collapseDisabled()">Contacto</a></li>
+        <li><a class="li-a btn-reserva disabled" href="" onclick="collapseDisabled()">Reservas</a></li>
+      </ul>
+    </div>
+
+    </nav>
+
+
+    <section class="fondo1" id="home">
+      <a href="#"><img src="./res/indian-icon.webp" loading="lazy" class="icon-spaMobile" alt="logo indian holy spa" /></a>
+        <div class="content-text-home" >
+          
+          <h4 class="text-home wow fadeInLeft">
+            WE<br>
+            LIVE<br>
+          </h4>
+            <h4 class="text-bold-home wow fadeInLeft" data-wow-delay="1s">
+              INDIAN<br>
+              HOLY
+            </h4>
+
+          </h4>
+        </div>
+        <div class="bottom-content">
+          <h6 class="text-bottom-home">
+          AMAMOS TRAER TU BELLEZA <br>
+          INTERIOR <span>HACIA EL EXTERIOR </span> 
+          </h6>
+
+
+          <div class="circle-svg">
+            <svg class="vsg-home" width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect width="39" height="39" fill="url(#pattern0)"/>
+              <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0_18_1598" transform="scale(0.005)"/>
+              </pattern>
+              <image id="image0_18_1598" width="200" height="200" xlink:href="data:image/png;base64,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"/>
+              </defs>
+            </svg>
+          </div>
+
+          <div class="container-logos">
+            <img src="./res/lidherma.webp" loading="lazy" class="img-logo" alt="Lidherma logo" srcset="">
+            <img src="./res/LOrea.webp" loading="lazy" class="img-logo" alt=" Loreal logo" srcset="">
+            <img src="./res/OPI.webp" loading="lazy" class="img-logo" alt="OPI logo">
+          </div>
+            
+            
+         
+        </div>
+    </section>
+
+    <section class="container-live-indian">
+      <h6 id="textOne" class="text-welive textOne">WE LIVE <span>INDIAN HOLY</span></h6>
+      <h6 id="textTwo" class="text-welive textTwo notVisible">WE LIVE <span>EXPERIENCE</span></h6>
+    </section>
+
+      <section id="services" class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img src="./res/serv/nails.webp" loading="lazy" class="img-serv" alt="foto de uñas">
+              <div class="text-serv">
+                <h5 class="title-serv"><span>SERVICIOS </span></h5>
+                <h2 class="title-card">NAILS <span>PERFECTAS</span>  </h2>
+                <h6 class="text-card">Arte en uñas,<b> cuidamos y embellecemos</b> uñas de manos y pies. Realizamos tratamientos específicos de acuerdo a tus necesidades y creamos diseños <b>únicos e innovadores</b>  .</h6>
+              </div>
+              <div class="cont-img">
+                <img src="./res/Hoja 1 2.webp" loading="lazy" class="img-personal" alt="Foto de hojas">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img src="./res/serv/facial.webp" loading="lazy" class="img-serv" alt="Foto de hombre masaje facial">
+              <div class="text-serv">
+                <h5 class="title-serv"><span>SERVICIOS </span></h5>
+                <h2 class="title-card">SPA <span>UNISEX</span>  </h2>
+                <h6 class="text-card">Disfruta de nuestras <b>sesiones de spa</b> pensadas para que puedas dejar los problemas a un lado y dedicarte tiempo para <b>vos</b>. 
+
+                  Aplicamos diferentes métodos mediante los cuales se  mejora el <b> estado general del cuerpo</b> tanto por fuera como por dentro.</h6>
+              </div>
+              <div class="cont-img">
+                <img src="./res/Hoja 1 2.webp" loading="lazy" class="img-personal" alt="Foto de hojas">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img src="./res/serv/haircut.webp" loading="lazy" class="img-serv" alt="Foto de peluqueria">
+              <div class="text-serv">
+                <h5 class="title-serv"><span>SERVICIOS </span></h5>
+                <h2 class="title-card"><span>PELUQUERIA</span>  </h2>
+                <h6 class="text-card">¡Creamos tu <b>look ideal</b>  con <b>imagen & estilo</b>! <br> Acompañados de las marcas más <b>importantes del mercado.</b></h6>
+              </div>
+              <div class="cont-img">
+                <img src="./res/Hoja 1 2.webp" loading="lazy" class="img-personal" alt="Foto de hojas">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img src="./res/serv/skin.webp" loading="lazy" class="img-serv" alt="Foto de mujer">
+              <div class="text-serv">
+                <h5 class="title-serv"><span>SERVICIOS </span></h5>
+                <h2 class="title-card">YOUR<span> BEAUTY</span>  </h2>
+                <h6 class="text-card">Siempre queremos dar <b>lo mejor</b> para que puedas sentirte bella y compartir belleza con quienes amas. Por eso, en nuestros servicios de beauty nos vamos a encargar de traer tu <b>belleza interior</b>, hacia el exterior.</h6>
+                
+              </div>
+              <div class="cont-img">
+                <img src="./res/Hoja 1 2.webp" loading="lazy" class="img-personal" alt="Foto de hojas">
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img src="./res/serv/solar.webp" loading="lazy" class="img-serv" alt="Foto de mujer en cama solar">
+              <div class="text-serv">
+                <h5 class="title-serv"><span>SERVICIOS </span></h5>
+                <h2 class="title-card"><span>SOLARIUM</span>  </h2>
+                <h6 class="text-card">Contamos con la <b>nueva tecnología</b> en estética de <b>origen Alemán</b>, Solárium 70% colágeno 30% que ayuda a <b>revitalizar</b> y <b>refrescar</b> tu piel en una sesión de 15 minutos.</h6>
+              </div>
+              <div class="cont-img">
+                <img src="./res/Hoja 1 2.webp" loading="lazy" class="img-personal" alt="Foto de hojas">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="tienda">
+
+      </section>
+ 
+      <section id="nosotras">
+        <div class="img-mobile ">
+          <img src="./res/paolaMobile1.webp" loading="lazy" class="img-paola" alt="Foto de Paola Otero" srcset="">
+        </div>
+        <div class="text-nosotras">
+          <h5 class="title-serv"><span>NOSOTROS </span></h5>
+          <h2 class="title-card">Hola, soy Paola Otero.<span></span>  </h2>
+          <h6 class="text-card-nos">Hola, mi nombre es Paola Otero. Fundadora de Indian Holy Spa. <br>
+            Desde Indian Holy, nos enfocamos en resaltar la belleza y promover el bienestar. <br>
+            
+            Visitar nuestro spa puede hacer que cambies  la forma de ver la vida, sentirte bella y empoderada  con cada uno de nuestros servicios. <br>
+            
+            Nuestro mayor deseo es que puedas hacer de Indian Holy, una rutina de vida. Es ahí cuando verdaderamente, comienzas a vivir una experiencia. La experiencia Indian Holy.</h6>
+        </div>       
+        <div class="contenedor-img">
+          <div class="cont-emp">
+            <img src="./res/emp.webp" loading="lazy" class="img-personal-paola wow fadeIn" data-wow-delay="1s" alt="Foto de paola otero" srcset="">
+          </div>
+          <div class="cont-log">
+            <img src="./res/indian-icon.webp" loading="lazy" class="img-logo-paola" alt="Foto del Spa Indian Holy">
+          </div>
+         
+         
+        </div>
+      </section>
+
+      <section id="contacto">
+        <div class="container-img-contact">
+          <img src="./res/img-contacto.webp" loading="lazy" class="img-contacto" alt="Foto de hojas de palmeras">
+        </div>
+        <div class="contact-info screen  wow fadeInLeft"  data-wow-delay="1s">
+          <h5 class="title-contact">Contactanos</h5>
+          <ul class="ul-contact">
+           
+            <li><h6 class="item-contact">Phone: <a target="_blank" href="tel:+5493518018178">+5493518018178</a></h6></li>
+            <li><h6 class="item-contact">Email: <a target="_blank" href="mailto:indianholyspa@gmail.com" >indianholyspa@gmail.com</a></h6></li>
+            <li><h6 class="item-contact">Office: <a target="_blank" href="https://www.google.com/maps/place/Indian+Holy+Spa/@-31.4762069,-64.1735282,16z/data=!4m19!1m13!4m12!1m4!2m2!1d-64.3349387!2d-31.1488172!4e1!1m6!1m2!1s0x9432a3efe7f789a5:0x68eee7e55ad8e37!2sindian+holy+spa!2m2!1d-64.1691508!2d-31.4762069!3m4!1s0x9432a3efe7f789a5:0x68eee7e55ad8e37!8m2!3d-31.4762069!4d-64.1691508">Av. O`higgins 5450 - Local H <br>
+              Complejo Las Catalinas</a></h6></li>
+          </ul>
+        </div>
+        <div class="container-form wow fadeInLeft" data-wow-delay="1s">
+          <div class="text-form">
+            <h5 class="title-form"><span>CONTACTO</span></h5>
+            <h4 class="span-text">SABEMOS QUE NECESITAS PROBAR</h4>
+            <h4 class="text-form">LA EXPERIENCIA INDIAN HOLY</h4>
+          </div>     
+          
+          
+            <form class="form" id="contact-form" name="contact-form" action="mail.php" method="POST" action="URL" method="post" onsubmit="ga('send', 'event', 'enviar', 'blog', 0);">
+              
+                <input placeholder="Nombre:" type="text" id="name" name="subject" class="form-control form-name">
+              
+                <div class="break"></div>
+              
+                 <input placeholder="Email:" type="email" id="email" name="email" class="form-control form-email">
+             
+              
+                 <input placeholder="Numero de teléfono:" type="number" id="subject" name="name" class="form-control form-number">
+            
+                 <div class="break"></div>
+                
+                <textarea type="text" placeholder="Su consulta:" id="message" name="message" rows="5" class="form-control md-textarea"></textarea>
+             
+            </form>
+
+            <button class="btnSubmit" id="submit" onclick="validateForm()"> ENVIAR FORMULARIO </button>
+            <h6 class="alert-class" id="status">&nbsp</h6>
+
+
+          </div>
+          <div class="contact-info mobile wow fadeInLeft"  data-wow-delay="1s">
+            <h5 class="title-contact">Contactanos</h5>
+            <ul  class="ul-contact">
+             
+              <li><h6 class="item-contact">Phone: <a target="_blank" href="tel:+5493518018178">+5493518018178</a></h6></li>
+              <li><h6 class="item-contact">Email: <a target="_blank" href="mailto:indianholyspa@gmail.com" >indianholyspa@gmail.com</a></h6></li>
+              <li><h6 class="item-contact">Office: <a target="_blank" href="https://www.google.com/maps/place/Indian+Holy+Spa/@-31.4762069,-64.1735282,16z/data=!4m19!1m13!4m12!1m4!2m2!1d-64.3349387!2d-31.1488172!4e1!1m6!1m2!1s0x9432a3efe7f789a5:0x68eee7e55ad8e37!2sindian+holy+spa!2m2!1d-64.1691508!2d-31.4762069!3m4!1s0x9432a3efe7f789a5:0x68eee7e55ad8e37!8m2!3d-31.4762069!4d-64.1691508">Av. O`higgins 5450 - Local H <br>
+                Complejo Las Catalinas</a></h6></li>
+            </ul>
+          </div>
+      </section>
+
+
+      <section id="footer">
+        <div class="container-logo">
+          <img src="./res/lidhermaBlack.webp" loading="lazy" class="img-logo" alt="Logotipo de la marca Lidherma" srcset="">
+          <img src="./res/LOreaBlack.webp" loading="lazy" class="img-logo" alt="Logotipo de la marca Loreal"  srcset="">
+          <img src="./res/OPIBlack.webp" loading="lazy" class="img-logo" alt="Logotipo de la marca OPI" >
+        </div>
+
+        <!--<div class="products">
+          <h6 class="title-category">Products</h6>
+          <ul>
+            <li class="li-item"> <a href="" class="item-category">Producto 1</a> </li>
+            <li class="li-item"> <a href="" class="item-category">Producto 2</a> </li>
+            <li class="li-item"> <a href="" class="item-category">Producto 3</a> </li>
+            <li class="li-item"> <a href="" class="item-category">Producto 4</a> </li>
+            <li class="li-item"> <a href="" class="item-category">Producto 5</a> </li>
+          </ul>
+        </div>-->
+
+        <div class="resources">
+          <h6 class="title-category">Recursos</h6>
+          <ul class="ul-center">
+            <li class="li-item"> <a href="#services" class="item-category">Servicios</a> </li>
+            <li class="li-item"> <a href="#nosotras" class="item-category">Nosotros</a> </li>
+            <li class="li-item"> <a href="" class="item-category">Tienda</a> </li>
+            <li class="li-item"> <a href="" class="item-category">Reservas</a> </li>
+          </ul>
+        </div>
+
+        <div class="company">
+          <h6 class="title-category">Compañia</h6>
+          <ul>
+            <li class="li-item"> <a href="#contacto" class="item-category">Contacto</a> </li>
+            <li class="li-item"> <a href="" class="item-category">Terminos y condiciones</a> </li>
+            <li class="li-item"> <a href="" class="item-category">Condiciones de privacidad</a> </li>
+          </ul>
+        </div>
+
+        <div class="newsletter">
+          <div class="input-new-btn">
+            <h6 class="title-category">Newsletter</h6>
+            <form action="newsletter.php" id="news-form" name="news-form" method="POST" action="URL" method="post" onsubmit="ga('send', 'event', 'enviar', 'blog', 0);">
+              <input type="email" class="input-news" name="email-news" id="email-news" placeholder="Email:">
+              <button onclick="validateNews()" id="submit-news" class="btn-subscribe">Suscribirse</button>
+            </form>
+            
+            <h6 class="alert-class" id="status-news">&nbsp</h6>
+          </div>
+          <div class="networks">
+
+            <a target="_blank" href="https://www.instagram.com/spaindianholy/?hl=es" class="btn-netwotk" name="instagram"> 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg>
+            </a>
+
+      
+
+            <a target="_blank" href="mailto:indianholyspa@gmail.com" class="btn-netwotk" name="email"> 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+              </svg>
+            </a>
+
+          
+          </div>
+
+        </div>
+      </section>
+
+      <div class="cont-img-footer">
+      <a href="#"><img class="img-footer" src="./res/indian-icon.webp" alt="logotipo Indian Holy" loading="lazy"></a>  
+      </div>
+
+      <div class="foot-floud">
+      <a target="_blank" href="https://floudtech.com.ar/"><img src="./res/Disenado_por.._blanco.png" alt="floudtech Logo" loading="lazy"></a>  
+      </div>
+
+
+    </div>
+   <script src="./js/carrousel.js"></script>
+   <script src="./lib/splide-4.0.7/dist/js/splide.min.js"></script>
+  <script src="./js/animations.js"></script>
+   <script>
+
+    var splide = new Splide( '.splide', {
+      type  : 'fade',
+      rewind: true,
+      autoplay: true,
+    } );
+
+    splide.mount();
+   </script>
+<script src="./js/validateform.js"></script>
+<script src="/lib/WOW-master/dist/wow.js"></script>
+<script>
+  new WOW().init();
+  </script>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  @font-face {
+    font-family: gotham;
+    src: url(./font/Gotham/Gotham-Light.otf);
+  }
+  
+  @font-face {
+    font-family: gothamRegular;
+    src: url(./font/Gotham/GothamBook.ttf);
+  }
+  
+  @font-face {
+    font-family: gothamBold;
+    src: url(./font/Gotham/Gotham-Bold.otf);
+  }
+  
+  
+  @font-face {
+    font-family: Rokkit;
+    src: url(./font/Rokkitt-VariableFont_wght.ttf);
+  }
+  
+  /* NAV */
+  .page-nav {
+    display: flex;
+    display: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    padding-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .icon-spa {
+    height: 90px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Rokkit;
+    font-weight: 400;
+  }
+  
+  .li-a {
+    color: rgb(0, 0, 0);
+    padding: 12px 35px;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  .btn-reserva {
+    color: #ffc688;
+    border: 2px solid #ffc688;
+    background-color: transparent;
+    transition: color background-color 0.5s;
+    letter-spacing: 1px;
+  }
+  
+  .btn-reserva:hover {
+    color: rgb(70, 70, 70);
+    background-color: #ffc688;
+  }
+  
+  
+  a.disabled {
+    pointer-events: none;
+    color: rgb(65, 65, 65);
+    opacity: 0.6;
+    text-decoration: none;
+  }
+  
+  /* NAV */
+
+  #decoration-shop{
+    background-color: #F2E5CF;
+    background-position: center;
+    background-size: cover;  
+    height: 150px;
+  }
+
+  #shop{
+    background-color: #F2E5CF;
+    height: calc(100vh - 150px);
+    display: flex;
+    justify-content: center space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card{
+    background-color: white;
+    height: 310px;
+    width: 220px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 14px;
+    box-shadow: 0px 9px 22px rgba(0, 0, 0, 0.12);
+  }
+
+  .cont-img{
+    display: flex;
+    justify-content: center;   
+  }
+
+  .cont-img img{
+    height: 180px;
+    padding: 20px;
+  }
+
+  .text-item{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .price-add{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .content-cards{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .btn-carrito{
+    position: absolute;
+    background-color: #ffc688;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    top: 150px;
+    right: 50px;
+    border: 0px;
+    border-radius: 12px;
+  }
