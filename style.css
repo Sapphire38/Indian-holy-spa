@@ -39,7 +39,7 @@ html {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  content: url(./res/wsplogo.png);
+  content: url(./resources/wsplogo.png);
   height: 40px;
   z-index: 100;
 }
@@ -117,17 +117,17 @@ a.disabled {
 /* HOME */
 
 .fondo1{
-  background-image: url(./res/fondo2.webp);
+  background-image: url(./resources/fondo2.webp);
   transition: background 0.5s ease-in;
 }
 
 .fondo2{
-  background-image: url(./res/fondo1.webp);
+  background-image: url(./resources/fondo1.webp);
   transition: background 0.5s ease-in;
 }
 
 .fondo3{
-  background-image: url(./res/48.webp);
+  background-image: url(./resources/48.webp);
   transition: background 0.5s ease-in;
 }
 
@@ -262,7 +262,7 @@ h4{
   justify-content: center;
   align-items: center;
   height: 500px;
-  background-image: url(./res/WE_LIVE.webp);
+  background-image: url(./resources/WE_LIVE.webp);
   background-size: cover;
   background-position: center top;
   overflow: hidden !important;  
@@ -468,7 +468,7 @@ h4{
 
 .contenedor-img{
   width: 50vw;
-  background-image: url(./res/vshd-design-jlt-zaaz-wellness--amp--beauty-spa-shops-archello.1616054943\ 1.webp);
+  background-image: url(./resources/vshd-design-jlt-zaaz-wellness--amp--beauty-spa-shops-archello.1616054943\ 1.webp);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -514,7 +514,7 @@ h4{
 #contacto{
   display: flex;
   height: 85vh;
-  background-image: url(./res/fondoContact.webp);
+  background-image: url(./resources/fondoContact.webp);
   background-size: cover;
   background-position: center;
 
@@ -861,7 +861,7 @@ textarea:focus{
     justify-content: center;
     align-items: center;
     height: 350px;
-    background-image: url(./res/WE_LIVE.webp);
+    background-image: url(./resources/WE_LIVE.webp);
     background-size: cover;
     background-position: center top;
    
@@ -909,7 +909,7 @@ textarea:focus{
 
 #contacto{
   display: flex;
-  background-image: url(./res/fondoContact.webp);
+  background-image: url(./resources/fondoContact.webp);
   background-size: cover;
   background-position: center;
 
@@ -1178,7 +1178,7 @@ margin-top: 60px;
     justify-content: center;
     align-items: center;
     height: 140px;
-    background-image: url(./res/WE_LIVE.webp);
+    background-image: url(./resources/WE_LIVE.webp);
     background-size: cover;
     background-position: center;
     overflow: hidden !important;  
